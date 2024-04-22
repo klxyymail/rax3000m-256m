@@ -11,10 +11,10 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.1.1/g' package/base-files/files/bin/config_generate
 
 # Modify hostname
-#sed -i 's/ImmortalWrt/rax3000m_256m/g' package/base-files/files/bin/config_generate
+sed -i 's/ImmortalWrt/RAX3000m-256M/g' package/base-files/files/bin/config_generate
 
 #修改wifi名称（mtwifi-cfg）
 #sed -i 's/ImmortalWrt-2.4G/OpenWrt/g' package/mtk/applications/mtwifi-cfg/files/mtwifi.sh
